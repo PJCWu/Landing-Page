@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .logo {
@@ -69,11 +70,41 @@ a:link, a:visited {
   border-radius: 8px;
   border: none;
   margin-top: 12px;
+  cursor: pointer;
 }
 
 .flower-doberman {
   width: 500px;
   height: auto;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.info-title {
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.info-row-container {
+  display: flex;
+  gap: 30px;
+}
+
+.info-image {
+  width: 200px;
+  height: auto;
+}
+
+.info-text {
+  width: 200px;
 }
 
 .footer {
