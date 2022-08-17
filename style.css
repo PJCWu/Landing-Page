@@ -36,13 +36,44 @@ body {
   gap: 20px;
 }
 
-.header-links {
+.header-links,
+.secondary-text {
   font-size: 18px;
   color: #e5e7eb;
 }
 
 a:link, a:visited {
   text-decoration: none;
+}
+
+.main-hero-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 50px;
+  gap: 20px;
+}
+
+.main-text {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.main-hero-button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 700;
+  color: #e5e7eb;
+  padding: 8px 36px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 12px;
+}
+
+.flower-doberman {
+  width: 500px;
+  height: auto;
 }
 
 .footer {
