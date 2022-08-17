@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 30px;
   height: 100px;
   background-color: #1f2937;
 }
@@ -51,7 +51,7 @@ a:link, a:visited {
   display: flex;
   justify-content: center;
   background-color: #1f2937;
-  padding: 50px;
+  padding: 60px;
   gap: 20px;
 }
 
@@ -118,6 +118,28 @@ a:link, a:visited {
   color: #1f2937;
   font-size: 18px;
   text-align: center;
+}
+
+.quote-container {
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 120px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .footer {
