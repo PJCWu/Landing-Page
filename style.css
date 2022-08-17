@@ -90,21 +90,34 @@ a:link, a:visited {
   color: #1f2937;
   font-weight: 900;
   font-size: 36px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .info-row-container {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.info-content {
+  padding: 20px;
 }
 
 .info-image {
   width: 200px;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #3882f6;
+  border-radius: 16px;
 }
 
 .info-text {
   width: 200px;
+  margin-top: 10px;
+  color: #1f2937;
+  font-size: 18px;
+  text-align: center;
 }
 
 .footer {
