@@ -13,8 +13,19 @@ body {
   height: 100px;
   background-color: #1f2937;
 }
-
 .left-side-header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.left-side-header-logo-text {
   font-size: 24px;
   font-weight: 500;
   color: #f9faf8;
