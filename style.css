@@ -124,6 +124,7 @@ a:link, a:visited {
   flex-direction: column;
   background-color: #e5e7eb;
   padding: 120px;
+  margin-bottom: 50px;
 }
 
 .quote {
@@ -142,6 +143,39 @@ a:link, a:visited {
   font-weight: 700;
 }
 
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 6px;
+  gap: 10px;
+  padding: 50px;
+  margin: 0 80px;
+}
+
+.action-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.action-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.action-button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px 36px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -149,4 +183,5 @@ a:link, a:visited {
   height: 100px;
   background-color: #1f2937;
   color: #e5e7eb;
+  margin-top: 50px;
 }
