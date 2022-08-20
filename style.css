@@ -28,24 +28,25 @@ a:link, a:visited {
   background-color: #1f2937;
   box-sizing: border-box;
 }
-.left-side-header-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-}
 
-.logo {
-  height: 50px;
-  width: 50px;
-}
+  .left-side-header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
 
-.left-side-header-logo-text {
-  font-size: 24px;
-  font-weight: 500;
-  color: #f9faf8;
-}
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .left-side-header-logo-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+  }
 
 nav {
   display: flex;
@@ -53,10 +54,10 @@ nav {
   margin-left: 20px;
 }
 
-.header-link {
-  font-size: 18px;
-  color: #e5e7eb;
-}
+  .header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
 
 /* Main Content CSS */
 
@@ -68,36 +69,36 @@ nav {
   gap: 30px;
 }
 
-.main-text {
-  font-weight: 900;
-  font-size: 48px;
-  color: #f9faf8;
-  margin: 0;
-}
+  .main-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+  }
 
-.secondary-text {
-  font-size: 18px;
-  color: #e5e7eb;
-}
+  .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
 
-.main-hero-button {
-  background-color: #3882f6;
-  font-size: 18px;
-  font-weight: 700;
-  color: #e5e7eb;
-  padding: 8px 36px;
-  border-radius: 8px;
-  border: none;
-  margin-top: 12px;
-  cursor: pointer;
-}
+  .main-hero-button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e5e7eb;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+  }
 
-.flower-doberman {
-  width: 500px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
+  .flower-doberman {
+    width: 500px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
 
 .information-container {
   display: flex;
@@ -108,39 +109,39 @@ nav {
   box-sizing: border-box;
 }
 
-.info-title {
-  color: #1f2937;
-  font-weight: 900;
-  font-size: 36px;
-}
+  .info-title {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+  }
 
-.info-row-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .info-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.info-content {
-  margin: 20px;
-}
+    .info-content {
+      margin: 20px;
+    }
 
-.info-image {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #3882f6;
-  border-radius: 16px;
-}
+    .info-image {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-style: solid;
+      border-width: 4px;
+      border-color: #3882f6;
+      border-radius: 16px;
+    }
 
-.info-text {
-  width: 150px;
-  margin-top: 10px;
-  color: #1f2937;
-  font-size: 18px;
-  text-align: center;
-}
+    .info-text {
+      width: 150px;
+      margin-top: 10px;
+      color: #1f2937;
+      font-size: 18px;
+      text-align: center;
+    }
 
 .quote-container {
   flex-direction: column;
@@ -150,57 +151,57 @@ nav {
   box-sizing: border-box;
 }
 
-.quote {
-  font-size: 36px;
-  font-weight: 300;
-  font-style: italic;
-  color: #1f2937;
-}
+  .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+  }
 
-.quote-author {
-  display: flex;
-  justify-content: right;
-  margin-top: 10px;
-  color: #1f2937;
-  font-size: 24px;
-  font-weight: 700;
-}
+  .quote-author {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+  }
 
-.action-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #3882f6;
-  border-radius: 6px;
-  gap: 10px;
-  padding: 50px;
-  margin: 0 80px;
-  box-sizing: border-box;
-}
+  .action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 6px;
+    gap: 10px;
+    padding: 50px;
+    margin: 0 80px;
+    box-sizing: border-box;
+  }
 
-.action-title {
-  font-size: 24px;
-  font-weight: 700;
-  color: #ffffff;
-  margin: 0;
-}
+    .action-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ffffff;
+      margin: 0;
+    }
 
-.action-text {
-  font-size: 18px;
-  color: #e5e7eb;
-}
+    .action-text {
+      font-size: 18px;
+      color: #e5e7eb;
+    }
 
-.action-button {
-  background-color: #3882f6;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 8px 36px;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: #ffffff;
-  cursor: pointer;
-}
+    .action-button {
+      background-color: #3882f6;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 8px 36px;
+      border-radius: 8px;
+      border-style: solid;
+      border-color: #ffffff;
+      cursor: pointer;
+    }
 
 /* Footer CSS */
 
